@@ -1,10 +1,14 @@
-
-<p>
-  Checkout!
-</p>
+<p>Sample Checkout Page</p>
 
 <div>
-<input #paymentAmount type="number" name="amount" id="paymentAmount" [(ngModel)]="pAmount" >
-<button (click)="initialPayment(paymentAmount)">Remove quantity</button> 
-
+  <p>Please enter the payment amount:</p>
+  <input
+    #paymentAmount
+    type="number"
+    name="amount"
+    id="paymentAmount"
+    [(ngModel)]="pAmount"
+  />
+  <br /><br />
+  <button (click)="initialPayment(paymentAmount)">Checkout</button>
 </div>
