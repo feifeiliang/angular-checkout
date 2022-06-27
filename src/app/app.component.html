@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
+
 <p>
-  Start editing to see some magic happen :)
+  Checkout!
 </p>
+
+<div>
+<input #paymentAmount type="number" name="amount" id="paymentAmount" [(ngModel)]="pAmount" >
+<button (click)="initialPayment(paymentAmount)">Remove quantity</button> 
+
+</div>
