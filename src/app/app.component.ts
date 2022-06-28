@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-const shajs = require('sha.js');
+import shajs = require('sha.js');
 
 @Component({
   selector: 'my-app',
